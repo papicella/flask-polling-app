@@ -26,6 +26,7 @@ Build a Docker image:
 
 ```
 docker build -t polling-app:latest .
+``` 
 
 Start the container:
 
