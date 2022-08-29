@@ -1,0 +1,13 @@
+export PS1='[\u(flask)]\> '
+export DB_HOST=centos
+export DB_PORT=3306
+export DB_NAME=votedb
+export DB_USER=voteuser
+export DB_PASS=password
+export DB_TYPE=mysql
+
+export ENDPOINT_ADDRESS=localhost
+export PORT=3306 
+export MASTER_USERNAME=voteuser
+export MASTER_PASSWORD=password
+

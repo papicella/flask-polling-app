@@ -1,0 +1,11 @@
+{
+   "poll": "Favourite snack",
+   "question": "What is your favourite snack?",
+   "options": [
+	"Mentos",
+	"Kit Kat",
+	"Cheetos",
+	"Kellogg's",
+	"Other"
+   ]
+}
