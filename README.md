@@ -1,7 +1,9 @@
 # flask-polling-app
 A simple web polling application written in Python (Flask).
 
-![flask_image](https://user-images.githubusercontent.com/25560159/187330788-a19e9b84-dc3d-4ab1-8533-6e297147e4d1.png)
+![flask_image](https://user-images.githubusercontent.com/25560159/187596909-fab09469-84be-4484-9885-3db3dd7f5b4b.png)
+
+
 
 ## Deployment
 
