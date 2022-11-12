@@ -31,6 +31,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 # The default values ('db', 'vote' etc) are for making it easier to create this app in the OpenShift console after 
 # setting up a DB call 'db'...
 
+
 dbhost  = os.environ.get('ENDPOINT_ADDRESS', 'db')
 dbport  = os.environ.get('PORT', '3306')
 dbname  = os.environ.get('DB_NAME', 'vote')
@@ -138,8 +139,9 @@ if __name__ == '__main__':
     wait = 1
     while wait:
         try:
-            db.create_all()
-            wait = 0 
+            with app.app_context():
+                db.create_all()
+                wait = 0 
         except Exception as e: 
             print(e)
             print ("Database connection failed ... sleep\n")

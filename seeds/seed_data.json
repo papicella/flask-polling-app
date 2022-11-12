@@ -1,11 +1,11 @@
 {
-   "poll": "Favourite snack",
-   "question": "What is your favourite snack?",
+   "poll": "Snyk Platform",
+   "question": "What is your favourite Snyk product?",
    "options": [
-	"Mentos",
-	"Kit Kat",
-	"Cheetos",
-	"Kellogg's",
-	"Other"
+	"Snyk Code",
+	"Snyk Open Source",
+	"Snyk Container",
+	"Snyk IaC",
+	"Snyk Cloud"
    ]
 }

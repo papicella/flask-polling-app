@@ -1,4 +1,6 @@
-FROM python:3.6
+FROM python:3.8
+
+LABEL Version 1.0
 
 # By default, the app uses an internal sqlite db
 # Use env variables to connect to an external SQL engine, e.g. MySQL

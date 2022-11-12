@@ -1,5 +1,5 @@
 flask
-flask-sqlalchemy
+flask-sqlalchemy==2.5.1
 mysqlclient  
 Django==1.6.1
 python-etcd==0.4.5
