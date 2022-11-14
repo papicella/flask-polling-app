@@ -1,0 +1,11 @@
+{
+   "poll": "Snyk Platform",
+   "question": "What is your favourite Snyk product?",
+   "options": [
+	"Snyk Code",
+	"Snyk Open Source",
+	"Snyk Container",
+	"Snyk IaC",
+	"Snyk Cloud"
+   ]
+}
